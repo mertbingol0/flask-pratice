@@ -2,12 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-"""
-Sayfalara hangi yonlendirmeyi tanimladiysaniz,
-sayfalarin htmlinde linklediginiz diger sayfalarin pathi de,
-dosya adina ve konumuna gore degil, yonlendirmeye gore olmali.
-"""
-
 #index Page
 @app.route('/') 
 def index():
